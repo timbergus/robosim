@@ -11,7 +11,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "robotics": "wasm-pack build ./src/libraries/robotics"
+    "robotics": "wasm-pack build ./src/libraries/robotics",
+    "physics": "wasm-pack build ./src/libraries/physics",
+    "libraries": "yarn robotics && yarn physics"
   },
   "dependencies": {
     "@react-three/drei": "^9.46.2",
