@@ -24,15 +24,15 @@ dist-ssr
 *.sw?
 
 # LaTeX
-docs/*.aux
-docs/*.fdb_latexmk
-docs/*.fls
-docs/*.lof
-docs/*.lot
-docs/*.out
-docs/*.pdf
-docs/*.gz
-docs/*.toc
+blueprints/*.aux
+blueprints/*.fdb_latexmk
+blueprints/*.fls
+blueprints/*.lof
+blueprints/*.lot
+blueprints/*.out
+blueprints/*.pdf
+blueprints/*.gz
+blueprints/*.toc
 
 # Config
 .vscode
