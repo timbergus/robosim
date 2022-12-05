@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "robotics": "wasm-pack build ./src/libraries/robotics"
   },
   "dependencies": {
     "@react-three/drei": "^9.46.2",

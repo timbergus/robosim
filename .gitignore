@@ -39,3 +39,8 @@ docs/*.toc
 
 # Libs
 src/pkg
+
+# Rust
+pkg
+target
+Cargo.lock

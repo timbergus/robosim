@@ -1,7 +1,7 @@
 import { Canvas } from '@react-three/fiber'
 import { Join } from './Join'
 import { Vector3 } from 'three'
-import { get_robot } from '../pkg/robosim_lib'
+import { get_robot } from '../libraries/robotics/pkg'
 import { ChangeEvent, useState } from 'react'
 import { Slider } from './Slider'
 
